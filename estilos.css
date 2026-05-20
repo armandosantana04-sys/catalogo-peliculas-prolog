@@ -118,3 +118,48 @@ h1{
     text-decoration: none;
     border-radius: 10px;
 }
+
+.hero{
+
+    height: 500px;
+
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+    display: flex;
+    align-items: end;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    margin-bottom: 40px;
+}
+
+.overlay{
+
+    width: 100%;
+    padding: 50px;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.95),
+        rgba(0,0,0,0.3),
+        transparent
+    );
+}
+
+.overlay h1{
+
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.sinopsis{
+
+    max-width: 700px;
+    font-size: 20px;
+    line-height: 1.6;
+}

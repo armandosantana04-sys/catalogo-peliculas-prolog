@@ -24,6 +24,30 @@ $datos = explode('|', $resultado);
 
 <body>
 
+    <div class="hero"
+style="background-image: url('img/<?php echo $datos[8]; ?>')">
+
+    <div class="overlay">
+
+        <h1>
+            <?php echo ucwords(str_replace('_', ' ', $datos[0])); ?>
+        </h1>
+
+        <p class="sinopsis">
+            <?php echo $datos[2]; ?>
+        </p>
+
+        <a href="index.php?categoria=<?php echo $categoria; ?>"
+        class="volver">
+
+            ← Volver
+
+        </a>
+
+    </div>
+
+</div>
+
 <div class="detalle">
 
     <img src="img/<?php echo $datos[7]; ?>">
