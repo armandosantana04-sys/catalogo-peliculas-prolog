@@ -1,0 +1,120 @@
+    body{
+
+    background: linear-gradient(to bottom, #111, #000);    color: white;
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.menu{
+
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu a{
+
+    transition: 0.3s;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.catalogo{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+
+    width: 220px;
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img{
+
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card a{
+
+    color: white;
+    text-decoration: none;
+}
+
+.detalle{
+
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.detalle img{
+
+    width: 300px;
+}
+
+.card{
+
+    width: 220px;
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.card:hover{
+
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px red;
+}
+
+.detalle{
+
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.detalle p{
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.detalle img{
+
+    width: 320px;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 20px rgba(255,0,0,0.4);
+}
+
+.volver{
+
+    background: red;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
