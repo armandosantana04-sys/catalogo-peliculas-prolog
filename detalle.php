@@ -2,6 +2,8 @@
 
 $titulo = $_GET['titulo'];
 
+$categoria = $_GET['categoria'];
+
 $comando = "swipl consulta_detalle.pl $titulo";
 
 $resultado = trim(shell_exec($comando));
@@ -47,7 +49,7 @@ $datos = explode('|', $resultado);
     </div>
         <br><br>
 
-        <a href="index.php" class="volver">
+        <a href="index.php?categoria=<?php echo $categoria; ?>" class="volver">
     ← Volver al catálogo
         </a>
 

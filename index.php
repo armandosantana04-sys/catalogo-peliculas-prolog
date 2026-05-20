@@ -47,7 +47,7 @@ foreach($peliculas as $pelicula){
 
     <div class='card'>
 
-        <a href='detalle.php?titulo=$titulo'>
+        <a href='detalle.php?titulo=$titulo&categoria=$categoria'>
 
             <img src='img/$imagen'>
 
