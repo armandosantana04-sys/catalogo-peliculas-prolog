@@ -19,7 +19,7 @@ pelicula(
 169,
 'Ingles',
 2014,
-'interstellar.jpg'
+'interstellar.jpg',
 'interstellar_banner.jpg'
 
 ).
@@ -32,7 +32,7 @@ pelicula(
 136,
 'Ingles',
 1999,
-'matrix.jpg'
+'matrix.jpg',
 'matrix_banner.jpg'
 
 ).
@@ -45,7 +45,7 @@ pelicula(
 148,
 'Ingles',
 2010,
-'inception.jpg'
+'inception.jpg',
 'inception_banner.jpg'
 ).
 
@@ -57,7 +57,7 @@ pelicula(
 162,
 'Ingles',
 2009,
-'avatar.jpg'
+'avatar.jpg',
 'avatar_banner.jpg'
 ).
 
@@ -69,7 +69,7 @@ pelicula(
 91,
 'Ingles',
 2013,
-'gravity.jpg'
+'gravity.jpg',
 'gravity_banner.jpg'
 ).
 
@@ -83,7 +83,7 @@ pelicula(
 101,
 'Ingles',
 2014,
-'johnwick.jpg'
+'johnwick.jpg',
 'johnwick_banner.jpg'
 ).
 
@@ -95,7 +95,7 @@ pelicula(
 155,
 'Ingles',
 2000,
-'gladiator.jpg'
+'gladiator.jpg',
 'gladiator_banner.jpg'
 ).
 
@@ -107,7 +107,7 @@ pelicula(
 120,
 'Ingles',
 2015,
-'madmax.jpg'
+'madmax.jpg',
 'madmax_banner.jpg'
 ).
 
@@ -119,7 +119,7 @@ pelicula(
 143,
 'Ingles',
 2012,
-'avengers.jpg'
+'avengers.jpg',
 'avengers_banner.jpg'
 ).
 
@@ -131,7 +131,7 @@ pelicula(
 152,
 'Ingles',
 2008,
-'batman.jpg'
+'batman.jpg',
 'batman_banner.jpg'
 ).
 
@@ -145,7 +145,7 @@ pelicula(
 105,
 'Español',
 2017,
-'coco.jpg'
+'coco.jpg',
 'coco_banner.jpg'
 ).
 
@@ -157,7 +157,7 @@ pelicula(
 90,
 'Ingles',
 2001,
-'shrek.jpg'
+'shrek.jpg',
 'shrek_banner.jpg'
 ).
 
@@ -169,7 +169,7 @@ pelicula(
 102,
 'Ingles',
 2013,
-'frozen.jpg'
+'frozen.jpg',
 'frozen_banner.jpg'
 ).
 
@@ -181,7 +181,7 @@ pelicula(
 117,
 'Ingles',
 2006,
-'cars.jpg'
+'cars.jpg',
 'cars_banner.jpg'
 ).
 
@@ -193,7 +193,7 @@ pelicula(
 81,
 'Ingles',
 1995,
-'toystory.jpg'
+'toystory.jpg',
 'toystory_banner.jpg'
 ).
 
