@@ -9,9 +9,7 @@
 % Imagen
 % ).
 
-% ======================
 % CIENCIA FICCION
-% ======================
 
 pelicula(
 'interstellar',
@@ -68,9 +66,7 @@ pelicula(
 'gravity.jpg'
 ).
 
-% ======================
 % ACCION
-% ======================
 
 pelicula(
 'john_wick',
@@ -127,9 +123,7 @@ pelicula(
 'batman.jpg'
 ).
 
-% ======================
 % ANIMACION
-% ======================
 
 pelicula(
 'coco',
@@ -186,9 +180,7 @@ pelicula(
 'toystory.jpg'
 ).
 
-% ======================
 % REGLAS
-% ======================
 
 peliculas_por_categoria(Categoria, Titulo, Imagen) :-
     pelicula(Titulo, Categoria, _, _, _, _, _, Imagen).
