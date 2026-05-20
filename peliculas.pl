@@ -200,7 +200,7 @@ pelicula(
 % REGLAS
 
 peliculas_por_categoria(Categoria, Titulo, Imagen) :-
-    pelicula(Titulo, Categoria, _, _, _, _, _, Imagen).
+    pelicula(Titulo, Categoria, _, _, _, _, _, Imagen, _).
 
 detalle_pelicula(
 Titulo,
@@ -210,7 +210,8 @@ Actores,
 Duracion,
 Idioma,
 Año,
-Imagen
+Imagen,
+Banner
 ) :-
     pelicula(
         Titulo,
@@ -220,5 +221,6 @@ Imagen
         Duracion,
         Idioma,
         Año,
-        Imagen
+        Imagen,
+        Banner
     ).

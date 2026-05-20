@@ -14,6 +14,7 @@ inicio :-
         Idioma,
         Año,
         Imagen
+        Banner
     ),
 
     write(Titulo),
@@ -38,7 +39,9 @@ inicio :-
     write('|'),
 
     write(Imagen),
+    write('|'),
 
+    write(Banner),
     halt.
 
 :- initialization(inicio).
