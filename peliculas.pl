@@ -73,6 +73,43 @@ pelicula(
 'gravity_banner.jpg'
 ).
 
+pelicula(
+'war_machine',
+'ciencia_ficcion',
+'Sigue a los reclutas finales de un agotador campo de entrenamiento de operaciones especiales que se enfrentan a una fuerza letal de más allá de este mundo..',
+'Alan Ritchson, Ben Kingsley',
+107,
+'Ingles',
+2026,
+'war_machine.jpg',
+'war_machine_banner.jpg'
+).
+
+pelicula(
+'frankenstein',
+'ciencia_ficcion',
+'Un científico brillante y egocéntrico da vida a una criatura monstruosa en un experimento que conduce
+ a la perdición tanto del creador como de su trágica creación.',
+'Jacob Elordi, Oscar Isaac',
+150,
+'Ingles',
+2025,
+'frankenstein.jpg',
+'frankenstein_banner.jpg'
+).
+
+pelicula(
+'predator_badland',
+'ciencia_ficcion',
+'Un joven depredador (Dimitrius Schuster-Koloamatangi) repudiado por su clan encuentra una aliada inesperada,
+ Thia (Elle Fanning), y emprende un peligroso viaje.',
+'Dimitrius Schuster-Koloamatangi, Elle Fanning',
+107,
+'Ingles',
+2025,
+'predator_badland.jpg',
+'predator_badland_banner.jpg'
+).
 % ACCION
 
 pelicula(
@@ -135,6 +172,41 @@ pelicula(
 'batman_banner.jpg'
 ).
 
+pelicula(
+'mortal_kombat',
+'accion',
+'Un luchador de artes marciales debe enfrentarse a un enemigo poderoso.',
+'Joel Kinnaman, Lena Headey',
+116,
+'Ingles',
+2026,
+'mortal_kombat.jpg',
+'mortal_kombat_banner.jpg'
+).
+
+pelicula(
+'ballerina',
+'accion',
+'Una asesina entrenada en las tradiciones de la organización Ruska Roma busca venganza tras la muerte de su padre.',
+'Ana de Armas, Keanu Reeves',
+125,
+'Ingles',
+2025,
+'ballerina.jpg',
+'ballerina_banner.jpg'
+).
+
+pelicula(
+'deadpool_3',
+'accion',
+'Deadpool viaja en el tiempo con la intención de reclutar a Wolverine en la batalla contra un enemigo común: Paradox.',
+'Ryan Reynolds, Hugh Jackman',
+128,
+'Ingles',
+2024,
+'deadpool_3.jpg',
+'deadpool_3_banner.jpg'
+).
 % ANIMACION
 
 pelicula(
@@ -197,6 +269,41 @@ pelicula(
 'toystory_banner.jpg'
 ).
 
+pelicula(
+'zootopia_2',
+'animacion',
+'Los policías Judy y Nick están tras la pista de un misterioso reptil en Zootopia.',
+'Ginnifer Goodwin, Jason Bateman',
+108,
+'Ingles',
+2025,
+'zootopia.jpg',
+'zootopia_banner.jpg'
+).
+
+pelicula(
+'toy_story_5',
+'animacion',
+'Woody y sus amigos enfrentan nuevas aventuras.',
+'Tom Hanks, Tim Allen',
+108,
+'Ingles',
+2026,
+'toystory_5.jpg',
+'toystory_5_banner.jpg'
+).
+
+pelicula(
+'inside_out',
+'animacion',
+'Las emociones de una niña cobran vida.',
+'Kensington Tallman, Amy Poehler',
+108,
+'Ingles',
+2026,
+'inside_out.jpg',
+'inside_out_banner.jpg'
+).
 % REGLAS
 
 peliculas_por_categoria(Categoria, Titulo, Imagen) :-
@@ -223,4 +330,34 @@ Banner
         Año,
         Imagen,
         Banner
+    ).
+
+buscar_pelicula(Busqueda, Titulo, Imagen) :-
+
+    pelicula(
+        Titulo,
+        _,
+        _,
+        _,
+        _,
+        _,
+        _,
+        Imagen,
+        _
+    ),
+
+    sub_atom(Titulo, _, _, _, Busqueda).
+
+    buscar_por_anio(Anio, Titulo, Imagen) :-
+
+    pelicula(
+        Titulo,
+        _,
+        _,
+        _,
+        _,
+        _,
+        Anio,
+        Imagen,
+        _
     ).

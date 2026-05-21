@@ -13,7 +13,7 @@ inicio :-
         Duracion,
         Idioma,
         Año,
-        Imagen
+        Imagen,
         Banner
     ),
 
@@ -42,6 +42,7 @@ inicio :-
     write('|'),
 
     write(Banner),
+    
     halt.
 
 :- initialization(inicio).
